@@ -23,14 +23,14 @@ export const siteConfig = {
     "SafeWeb",
     "Secure Web Development",
   ],
-  location: "Lagos, Nigeria",
-  email: "justice.enefola@example.com", // placeholder
-  phone: "+234 000 000 0000", // placeholder
-  whatsapp: "https://wa.me/234000000000", // placeholder
-  github: "https://github.com/justiceenefola", // placeholder
+  location: "Lagos, Nigeria & Minna, Niger State, Nigeria",
+  email: "enefolajustice004@gmail.com", // placeholder
+  phone: "+234 708 300 4098", // placeholder
+  whatsapp: "https://wa.me/2347083004098", // placeholder
+  github: "https://github.com/JusTech-Cxdxs", // placeholder
   linkedin: "https://linkedin.com/in/justiceenefola", // placeholder
   cvUrl: "/cv/justice-enefola-cv.pdf", // placeholder — add the real file to public/cv
-  profileImage: "/images/profile.jpg", // placeholder — add the real photo to public/images
+  profileImage: "public/images/IMG_2252.jpeg", // placeholder — add the real photo to public/images
   availableForProjects: true,
   yearsExperience: 3,
   education: {
