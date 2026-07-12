@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/*
+  Design system.
+  Direction: "enterprise security console" rather than generic dev-portfolio
+  cream/serif or neon-on-black — graphite base, one restrained trust-blue
+  accent, amber used only as a sparing signal color (status/available badge),
+  monospace reserved for data/labels (dates, tech tags, terminal-style hero line).
+*/
+@theme {
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+
+  --color-bg: #0b0e14;
+  --color-surface: #12161f;
+  --color-surface-2: #1a1f2b;
+  --color-border: #232938;
+  --color-accent: #4c8dff;
+  --color-accent-dim: #2f4d80;
+  --color-signal: #f5a623;
+  --color-success: #34d399;
+  --color-text: #e6e9ef;
+  --color-muted: #8b93a5;
+}
+
+:root[data-theme="light"] {
+  --color-bg: #f6f7fa;
+  --color-surface: #ffffff;
+  --color-surface-2: #f0f1f5;
+  --color-border: #e2e5eb;
+  --color-accent: #2f6fe0;
+  --color-accent-dim: #cfe0ff;
+  --color-text: #0b0e14;
+  --color-muted: #4a5164;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.section-offset {
+  scroll-margin-top: 5.5rem;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, var(--color-border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-border) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--color-accent), #8ab4ff 60%, var(--color-signal));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: float 9s ease-in-out infinite;
+}
+
+.animate-blob {
+  animation: blob 14s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(3deg); }
+}
+
+@keyframes blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(4%, -6%) scale(1.08); }
+  66% { transform: translate(-3%, 4%) scale(0.95); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
