@@ -23,7 +23,7 @@ export const siteConfig = {
     "SafeWeb",
     "Secure Web Development",
   ],
-  location: "Lagos, Nigeria & Minna, Niger State, Nigeria",
+  location: "Current Location: Lagos, Nigeria • Other Locations: Abuja & Minna, Niger State",
   email: "enefolajustice004@gmail.com", // placeholder
   phone: "+234 708 300 4098", // placeholder
   whatsapp: "https://wa.me/2347083004098", // placeholder
