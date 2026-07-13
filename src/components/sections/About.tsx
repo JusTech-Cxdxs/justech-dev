@@ -39,19 +39,12 @@ export default function About() {
           <ScrollReveal delay={0.1}>
             <div className="space-y-5 text-base leading-relaxed text-muted">
               <p>
-                I&apos;m a web developer with over three years of experience building business
-                websites, corporate websites, booking platforms, membership systems, ERP concepts,
-                and e-commerce websites. My work centers on custom WordPress solutions, PHP
-                development, and JavaScript — usually with payment and API integrations woven in
-                to make the site actually useful for the business behind it.
+                I&apos;m a web developer, entrepreneur, and Mechanical Engineering student with over three years of experience building business websites, corporate platforms, booking systems, membership platforms, ERP concepts, and e-commerce solutions. My work focuses on creating practical, scalable, and business-driven software using WordPress, PHP, JavaScript, modern frontend technologies, and secure development practices.Beyond technology, I enjoy entrepreneurship, innovation, and identifying opportunities where software can improve businesses and everyday life. My long-term vision is to build secure enterprise applications, ERP platforms, fleet management systems, and automotive software that create meaningful impact across industries.believe continuous learning is essential to becoming a better engineer and developer. Alongside university studies and industrial training, I actively pursue professional training, modern web technologies, AI-assisted software development, cybersecurity best practices, and enterprise application design to continuously improve my technical capabilities.  So the old starting two paragraphs are "1.I'm a web developer with over three years of experience building business websites, corporate websites, booking platforms, membership systems, ERP concepts, and e-commerce websites. My work centers on custom WordPress solutions, PHP development, and JavaScript — usually with payment and API integrations woven in to make the site actually useful for the business behind it.
+
+2.Beyond building functional websites, I'm passionate about developing secure, reliable, and scalable digital solutions. I believe security should never be an afterthought — every project I build is approached with a security-first mindset, so user data, business information, and application workflows are protected through secure development practices and modern web standards. I continuously expand my knowledge of cybersecurity to strengthen the quality and resilience of what I build.
               </p>
               <p>
-                Beyond building functional websites, I&apos;m passionate about developing secure,
-                reliable, and scalable digital solutions. I believe security should never be an
-                afterthought — every project I build is approached with a security-first mindset,
-                so user data, business information, and application workflows are protected through
-                secure development practices and modern web standards. I continuously expand my
-                knowledge of cybersecurity to strengthen the quality and resilience of what I build.
+               Beyond building functional websites, I'm passionate about developing secure, reliable, and scalable digital solutions. I believe security should never be an afterthought, so every project I build follows a security-first approach that prioritizes the protection of user information, business data, and application workflows through secure coding practices and modern web standards. I'm also a continuous learner who actively expands my knowledge through professional training, AI-assisted development technologies, cybersecurity best practices, and enterprise software architecture. Alongside my passion for technology, I have an entrepreneurial mindset that drives me to identify opportunities, solve practical problems, and develop innovative digital solutions capable of creating lasting value for businesses, organizations, and communities.
               </p>
               <p>
                 Alongside my software development career, I'm currently pursuing a{" "}
