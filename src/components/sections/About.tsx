@@ -54,12 +54,10 @@ export default function About() {
                 knowledge of cybersecurity to strengthen the quality and resilience of what I build.
               </p>
               <p>
-                Alongside development work, I&apos;m currently pursuing a{" "}
+                Alongside my software development career, I'm currently pursuing a{" "}
                 <strong className="text-text">{siteConfig.education.programme}</strong> at{" "}
                 <strong className="text-text">{siteConfig.education.university}</strong> (
-                {siteConfig.education.level}). I enjoy combining that engineering knowledge with
-                software development — it shapes how I think about structure, tolerances, and
-                getting things reliably right, whether that&apos;s a gearbox or a checkout flow.
+                {siteConfig.education.level}). In 2024, I also undertook professional training in Full-Stack Web Development at Artificial Intelligence Technology Ltd., Wuse, Abuja, where I strengthened my practical knowledge of HTML, CSS, Tailwind CSS, PHP, JavaScript, Django, and modern web development practices. I continue to expand my expertise through AI-assisted development tools, cybersecurity best practices, and enterprise software architecture.
               </p>
             </div>
 
