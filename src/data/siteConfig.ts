@@ -12,7 +12,7 @@ export const siteConfig = {
   url: "https://justiceenefola.dev", // placeholder — swap for the real domain
   ogImage: "/og-image.png",
   description:
-    "Portfolio of Justice Enefola, a Lagos-based web developer specializing in WordPress, custom PHP, and e-commerce solutions, building with a security-first approach.",
+    "Portfolio of Justice Enefola — Web Developer, Entrepreneur, and Mechanical Engineering Student passionate about secure software development, enterprise systems, WordPress, AI-assisted technologies, and building practical digital solutions that solve real business problems.",
   keywords: [
     "Justice Enefola",
     "WordPress Developer",
