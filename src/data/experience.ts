@@ -47,7 +47,14 @@ export const experience: ExperienceItem[] = [
     period: "June 2026 – July 2026",
     description:
       "Performed servicing, maintenance, and repairs on commercial, light-duty, and heavy-duty vehicles, gaining hands-on exposure across a wider vehicle range.",
-    highlights: ["Isuzu", "Foton TM", "Foton Tunland", "Commercial vehicles", "Light duty vehicles", "Heavy duty vehicles"],
+    highlights: [
+      "Isuzu",
+      "Foton TM",
+      "Foton Tunland",
+      "Commercial vehicles",
+      "Light duty vehicles",
+      "Heavy duty vehicles",
+    ],
   },
   {
     id: "passenger-vehicle-engineering",
@@ -58,7 +65,14 @@ export const experience: ExperienceItem[] = [
     period: "May 2026 – June 2026",
     description:
       "Performed servicing, preventive maintenance, and repairs on passenger vehicles as part of the SIWES industrial training programme.",
-    highlights: ["Jeep", "Dodge", "Chevrolet", "Mitsubishi", "Soueast", "Chery"],
+    highlights: [
+      "Jeep",
+      "Dodge",
+      "Chevrolet",
+      "Mitsubishi",
+      "Soueast",
+      "Chery",
+    ],
   },
   {
     id: "siwes",
@@ -71,18 +85,39 @@ export const experience: ExperienceItem[] = [
       "Undertaking mandatory industrial training under experienced engineers, gaining practical, supervised knowledge of vehicle servicing, diagnostics, maintenance, repairs, workshop operations, and assembly processes. This is industrial training, not professional engineering practice — a continuous learning experience.",
   },
   {
+    id: "professional-training",
+    type: "software",
+    title: "Professional Training — Full-Stack Web Development & AI-Assisted Software Development",
+    organization: "Artificial Intelligence Technology Ltd.",
+    location: "Wuse, Abuja, Nigeria",
+    period: "2024 • 6 Months",
+    description:
+      "Attended professional training in Full-Stack Web Development, strengthening practical knowledge of modern software development technologies, AI-assisted development workflows, and industry best practices through structured learning and practical exercises.",
+    highlights: [
+      "HTML5",
+      "CSS3 & Tailwind CSS",
+      "JavaScript",
+      "PHP",
+      "Django",
+      "AI-assisted software development",
+      "Modern web development practices",
+      "Practical project development",
+    ],
+  },
+  {
     id: "software-development",
     type: "software",
     title: "Web Developer — Freelance & Personal Projects",
     organization: "Self-Employed",
     period: "3+ Years",
     description:
-      "Building custom WordPress and PHP-based websites for real clients and personal projects — business and corporate sites, e-commerce stores, booking platforms, and membership systems — with API and payment integrations along the way.",
+      "Building custom WordPress and PHP-based websites for real clients and personal projects — including business websites, corporate platforms, e-commerce stores, booking systems, membership platforms, and ERP concepts — with payment gateway and API integrations that deliver practical value for businesses.",
     highlights: [
       "Custom WordPress & PHP development",
       "WooCommerce e-commerce builds",
+      "Business & corporate websites",
       "Booking & membership platforms",
-      "API & payment integrations",
+      "Payment gateway & API integrations",
       "Git, GitHub & Vercel workflows",
     ],
   },
