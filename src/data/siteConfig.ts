@@ -30,7 +30,7 @@ export const siteConfig = {
   github: "https://github.com/JusTech-Cxdxs", // placeholder
   linkedin: "https://linkedin.com/in/justiceenefola", // placeholder
   cvUrl: "/cv/justice-enefola-cv.pdf", // placeholder — add the real file to public/cv
-  profileImage: "/images/IMG_2252.jpeg", // placeholder — add the real photo to public/images
+  profileImage: "/images/profile.jpg", // placeholder — add the real photo to public/images
   availableForProjects: true,
   yearsExperience: 3,
   education: {
@@ -105,7 +105,7 @@ export const safeWeb = {
     "SafeWeb is a technology and cybersecurity company delivering secure digital infrastructure for businesses across Europe and worldwide, covering websites, applications, servers, and online platforms.",
   contribution:
     "I worked on the SafeWeb website build, contributing front-end implementation and applying the same security-conscious development approach — careful data handling, secure forms, and a hardened, performance-minded setup — that I bring to every project.",
-  website: "#", // placeholder
+  website: "safeweb..lt", // placeholder
 };
 
 /**
