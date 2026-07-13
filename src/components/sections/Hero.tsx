@@ -118,9 +118,7 @@ export default function Hero() {
           </div>
 
           <p data-hero-copy className="mt-6 max-w-xl text-balance text-base leading-relaxed text-muted sm:text-lg">
-            Building business websites, e-commerce stores, and custom WordPress solutions with PHP,
-            JavaScript, HTML &amp; CSS — currently learning React Native, and studying B.Tech
-            Mechanical Engineering alongside it.
+            Building secure business websites, e-commerce platforms, ERP concepts, and custom digital solutions with PHP, JavaScript, WordPress, Next.js, and modern web technologies. I'm also a Mechanical Engineering student, entrepreneur, and continuous learner passionate about secure software development, AI-assisted technologies, and solving real-world business challenges.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-2 font-mono text-xs text-muted">
