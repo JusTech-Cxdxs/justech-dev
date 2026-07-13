@@ -48,7 +48,7 @@ export default function About() {
                 Alongside my software development career, I'm currently pursuing a{" "}
                 <strong className="text-text">{siteConfig.education.programme}</strong> at{" "}
                 <strong className="text-text">{siteConfig.education.university}</strong> (
-                {siteConfig.education.level}). In 2024, I also undertook professional training in Full-Stack Web Development at Artificial Intelligence Technology Ltd., Wuse, Abuja, where I strengthened my practical knowledge of HTML, CSS, Tailwind CSS, PHP, JavaScript, Django, and modern web development practices. I continue to expand my expertise through AI-assisted development tools, cybersecurity best practices, and enterprise software architecture.
+                {siteConfig.education.level}). In <b>2024,</b> I also undertook professional training in <b>Full-Stack Web Development</b> at <b>Artificial Intelligence Technology Ltd., Wuse, Abuja,</b> where I strengthened my practical knowledge of <b>HTML, CSS, Tailwind CSS, PHP, JavaScript, Django,</b> and modern web development practices. I continue to expand my expertise through <b>AI-assisted development tools, cybersecurity best practices,</b> and <b>enterprise software architecture</b>.
               </p>
             </div>
 
