@@ -1,6 +1,12 @@
 "use client";
 
-import { FiCode, FiShield, FiBookOpen } from "react-icons/fi";
+import {
+  FiCode,
+  FiShield,
+  FiBookOpen,
+  FiAward,
+  FiTrendingUp,
+} from "react-icons/fi";
 import ScrollReveal from "@/components/effects/ScrollReveal";
 import GlassCard from "@/components/ui/GlassCard";
 import AnimatedCounter from "@/components/ui/AnimatedCounter";
@@ -10,20 +16,29 @@ const highlights = [
   {
     icon: FiCode,
     title: "3+ Years Building for the Web",
-    body: "Business websites, corporate sites, booking platforms, membership systems, ERP concepts, and e-commerce stores — with payment and API integrations along the way.",
+    body: "Business websites, corporate sites, booking platforms, membership systems, ERP concepts, and e-commerce stores — with payment gateways, API integrations, and practical solutions built around real business needs.",
   },
   {
     icon: FiShield,
     title: "Security-Conscious by Habit",
-    body: "Beyond building functional websites, I approach every project with a security-first mindset — protecting user data, business information, and application workflows through secure development practices.",
+    body: "Every project is built with a security-first mindset, applying secure development practices to protect user data, business information, and application workflows while improving reliability and performance.",
   },
   {
     icon: FiBookOpen,
     title: "Engineering Mindset, Applied",
-    body: "Currently pursuing a B.Tech in Mechanical Engineering at FUTMINNA. I enjoy combining that engineering discipline with software development to solve practical, real-world problems.",
+    body: "Currently pursuing a B.Tech in Mechanical Engineering at FUTMINNA, applying engineering principles, analytical thinking, and structured problem-solving to software and system development.",
+  },
+  {
+    icon: FiAward,
+    title: "Continuous Learning & Professional Training",
+    body: "Attended professional Full-Stack Web Development training at Artificial Intelligence Technology Ltd., Wuse, Abuja, strengthening practical skills in modern web technologies and software development.",
+  },
+  {
+    icon: FiTrendingUp,
+    title: "Entrepreneurship & Leadership",
+    body: "Passionate about entrepreneurship, innovation, and solving real-world problems through technology. Honoured with Entrepreneur of the Year and a Social Humanitarian Award for leadership and community impact.",
   },
 ];
-
 export default function About() {
   return (
     <section id="about" className="section-offset relative py-28">
