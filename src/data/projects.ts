@@ -4,23 +4,30 @@ import type { Project } from "@/types";
 // with matching filenames and they'll appear automatically.
 export const projects: Project[] = [
   {
-    id: "hotel-apartment-booking-platform",
-    title: "Hotel & Apartment Booking Platform",
-    category: "Booking Platform",
-    description:
-      "A custom booking platform for hotel and apartment listings, covering availability, reservations, and guest details from search through to confirmation.",
-    image: "/images/projects/hotel-booking-platform.jpg",
-    technologies: ["PHP", "MySQL", "JavaScript", "HTML5", "CSS3"],
-    features: [
-      "Real-time availability & booking flow",
-      "Listing management for rooms and apartments",
-      "Guest information capture and booking confirmation",
-      "Responsive, mobile-first design",
-    ],
-    githubUrl: "#",
-    liveUrl: "#",
-    featured: true,
-  },
+  id: "onutera-booking-platform",
+  title: "OnuTera Booking Platform",
+  category: "Booking Platform",
+  description:
+    "A premium multi-service booking platform for hotels, apartments, car rentals, airport transfers, and exclusive lifestyle experiences, built with a secure, mobile-first architecture and seamless online reservations.",
+  image: "/images/projects/onutera-booking-platform.jpg",
+  technologies: [
+    "PHP",
+    "MySQL",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Payment API"
+  ],
+  features: [
+    "Hotel, apartment & car rental bookings",
+    "Host & property management portal",
+    "Secure online payments & booking system",
+    "Airport transfers, premium add-ons & special packages"
+  ],
+  githubUrl: "#",
+  liveUrl: "https://onutera.com",
+  featured: true,
+},
   {
     id: "vehicle-dealership-platform",
     title: "Vehicle Dealership Platform",
