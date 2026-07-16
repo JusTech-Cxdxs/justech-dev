@@ -26,7 +26,6 @@ export default function Projects() {
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted">
             A mix of client work and personal builds — booking platforms, dealership sites, e-commerce,
             and custom WordPress solutions. Swap in real screenshots and links in{" "}
-            <code className="rounded bg-surface-2 px-1.5 py-0.5 font-mono text-xs">src/data/projects.ts</code>.
           </p>
         </ScrollReveal>
 
