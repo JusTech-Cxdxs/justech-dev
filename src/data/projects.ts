@@ -9,7 +9,7 @@ export const projects: Project[] = [
   category: "Booking Platform",
   description:
     "A premium multi-service booking platform for hotels, apartments, car rentals, airport transfers, and exclusive lifestyle experiences, built with a secure, mobile-first architecture and seamless online reservations.",
-  image: "/images/projects/onutera-booking-platform.jpg",
+  image: "/images/projects/onutera_img.jpg",
   technologies: [
     "PHP",
     "MySQL",
