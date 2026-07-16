@@ -103,16 +103,22 @@ export const projects: Project[] = [
   featured: true,
 },
   {
-    id: "gktv-foundation-website",
-    title: "GKTV Foundation Website",
-    category: "Business Website",
-    description: "A website built for the GKTV Foundation to present its work and provide a clear point of contact online.",
-    image: "/images/projects/gktv-foundation.jpg",
-    technologies: ["WordPress", "PHP", "CSS3"],
-    features: ["Content-managed pages", "Media presentation", "Contact & inquiry forms", "Mobile-first layout"],
-    githubUrl: "#",
-    liveUrl: "#",
-  },
+  id: "crypto-investment-platform",
+  title: "Crypto Investment Platform",
+  category: "Web Application",
+  description:
+    "A modern fintech investment platform built for managing cryptocurrency portfolios, secure deposits, investment plans, and real-time market tracking through a responsive user dashboard.",
+  image: "/images/projects/inv_img.jpg",
+  technologies: ["PHP", "MySQL", "JavaScript", "HTML5", "CSS3"],
+  features: [
+    "Secure investor dashboard & portfolio management",
+    "Crypto, bank transfer & gift card deposit options",
+    "Live cryptocurrency, stock & precious metal market tracking",
+    "Investment plans, earnings tracking & responsive fintech UI"
+  ],
+  githubUrl: "#",
+  liveUrl: "#",
+},
   {
     id: "crypto-investment-platform",
     title: "Crypto Investment Platform",
