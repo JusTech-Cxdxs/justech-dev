@@ -1,4 +1,4 @@
-"use client";
+\"use client";
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
@@ -37,20 +37,52 @@ export default function Hero() {
   const [roleIndex, setRoleIndex] = useState(0);
   const [displayText, setDisplayText] = useState("");
 
-  // Entrance animation
+  // Entrance animation. Guarded so a stalled/interrupted tween (backgrounded
+  // tab, throttled rAF on mobile, low-power mode) can never leave the CTA
+  // buttons or portrait stuck at the animation's opacity:0 starting value.
   useEffect(() => {
-    const ctx = gsap.context(() => {
-      gsap
-        .timeline({ defaults: { ease: "power3.out" } })
-        .from("[data-hero-eyebrow]", { opacity: 0, y: 16, duration: 0.6 })
-        .from("[data-hero-name]", { opacity: 0, y: 24, duration: 0.8 }, "-=0.3")
-        .from("[data-hero-sub]", { opacity: 0, y: 16, duration: 0.7 }, "-=0.4")
-        .from("[data-hero-copy]", { opacity: 0, y: 16, duration: 0.7 }, "-=0.5")
-        .from("[data-hero-cta] > *", { opacity: 0, y: 16, duration: 0.6, stagger: 0.1 }, "-=0.4")
-        .from("[data-hero-portrait]", { opacity: 0, scale: 0.92, duration: 0.9 }, "-=0.9");
-    }, headlineRef);
+    const targets = [
+      "[data-hero-eyebrow]",
+      "[data-hero-name]",
+      "[data-hero-sub]",
+      "[data-hero-copy]",
+      "[data-hero-cta] > *",
+      "[data-hero-portrait]",
+    ];
 
-    return () => ctx.revert();
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduced) return; // elements are already visible via their default CSS
+
+    let ctx: gsap.Context | undefined;
+    try {
+      ctx = gsap.context(() => {
+        const tl = gsap.timeline({
+          defaults: { ease: "power3.out" },
+          onComplete: () => gsap.set(targets, { clearProps: "opacity,transform" }),
+        });
+        tl.from("[data-hero-eyebrow]", { opacity: 0, y: 16, duration: 0.6 })
+          .from("[data-hero-name]", { opacity: 0, y: 24, duration: 0.8 }, "-=0.3")
+          .from("[data-hero-sub]", { opacity: 0, y: 16, duration: 0.7 }, "-=0.4")
+          .from("[data-hero-copy]", { opacity: 0, y: 16, duration: 0.7 }, "-=0.5")
+          .from("[data-hero-cta] > *", { opacity: 0, y: 16, duration: 0.6, stagger: 0.1 }, "-=0.4")
+          .from("[data-hero-portrait]", { opacity: 0, scale: 0.92, duration: 0.9 }, "-=0.9");
+      }, headlineRef);
+    } catch {
+      // If GSAP fails to initialize for any reason, do nothing — elements
+      // stay at their default (visible) CSS state instead of getting stuck.
+    }
+
+    // Hard fallback: whatever happens to the tween, force full visibility
+    // shortly after mount. This is the actual guarantee — the line above
+    // is best-effort polish, this is the safety net.
+    const fallback = window.setTimeout(() => {
+      gsap.set(targets, { clearProps: "opacity,transform" });
+    }, 2500);
+
+    return () => {
+      window.clearTimeout(fallback);
+      ctx?.revert();
+    };
   }, []);
 
   // Typing animation across the role list
@@ -118,7 +150,7 @@ export default function Hero() {
           </div>
 
           <p data-hero-copy className="mt-6 max-w-xl text-balance text-base leading-relaxed text-muted sm:text-lg">
-            Building secure business websites, e-commerce platforms, ERP concepts, and custom digital solutions with PHP, JavaScript, WordPress, Next.js, and modern web technologies. I'm also a Mechanical Engineering student, entrepreneur, and continuous learner passionate about secure software development, AI-assisted technologies, and solving real-world business challenges.
+              Building secure business websites, e-commerce platforms, ERP concepts, and custom digital solutions with PHP, JavaScript, WordPress, Next.js, and modern web technologies. I'm also a Mechanical Engineering student, entrepreneur, and continuous learner passionate about secure software development, AI-assisted technologies, and solving real-world business challenges.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-2 font-mono text-xs text-muted">
