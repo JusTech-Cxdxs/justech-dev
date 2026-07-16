@@ -106,7 +106,7 @@ export const safeWeb = {
     "SafeWeb is a technology and cybersecurity company delivering secure digital infrastructure for businesses across Europe and worldwide, covering websites, applications, servers, and online platforms.",
   contribution:
     "I worked on the SafeWeb website build, contributing front-end implementation and applying the same security-conscious development approach — careful data handling, secure forms, and a hardened, performance-minded setup — that I bring to every project.",
-  website: "safeweb..lt", // placeholder
+  website: "https://safeweb.lt", // placeholder
 };
 
 /**
