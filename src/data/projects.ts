@@ -29,22 +29,29 @@ export const projects: Project[] = [
   featured: true,
 },
   {
-    id: "vehicle-dealership-platform",
-    title: "Vehicle Dealership Platform",
-    category: "Business Website",
-    description:
-      "A dealership website for showcasing vehicle inventory with filtering, detailed listings, and inquiry forms for prospective buyers.",
-    image: "/images/projects/vehicle-dealership-platform.jpg",
-    technologies: ["WordPress", "PHP", "JavaScript", "CSS3"],
-    features: [
-      "Filterable vehicle inventory",
-      "Detailed vehicle listing pages",
-      "Inquiry & contact forms",
-      "SEO-friendly structure",
-    ],
-    githubUrl: "#",
-    liveUrl: "#",
-  },
+  id: "safeweb-lithuania-website",
+  title: "SafeWeb Lithuania",
+  category: "Business Website",
+  description:
+    "A corporate website developed for SafeWeb, a Lithuania-based IT and cybersecurity company, showcasing enterprise technology services, cybersecurity solutions, cloud infrastructure, and secure digital platforms with a modern, performance-focused user experience.",
+  image: "/images/projects/safeweb_img.jpg",
+  technologies: [
+    "WordPress",
+    "PHP",
+    "JavaScript",
+    "HTML5",
+    "CSS3"
+  ],
+  features: [
+    "Enterprise IT & cybersecurity website",
+    "Performance-optimized and SEO-ready",
+    "Security-focused architecture & secure forms",
+    "Fully responsive across desktop, tablet & mobile"
+  ],
+  githubUrl: "#",
+  liveUrl: "https://safeweb.lt/",
+  featured: true,
+},
   {
     id: "erp-concept-automotive",
     title: "ERP Concept for Automotive Company",
