@@ -19,6 +19,8 @@ export default function HomePage() {
       <About />
       <Security />
       <Experience />
+      <Awards />
+      <Journey />
       <Journey />
       <Services />
       <Projects />
