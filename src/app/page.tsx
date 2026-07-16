@@ -1,5 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
+import Awards from "@/components/sections/Awards";
 import Security from "@/components/sections/Security";
 import Experience from "@/components/sections/Experience";
 import Journey from "@/components/sections/Journey";
