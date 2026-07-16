@@ -120,20 +120,29 @@ export const projects: Project[] = [
   liveUrl: "#",
 },
   {
-    id: "crypto-investment-platform",
-    title: "Crypto Investment Platform",
-    category: "Web Application",
-    description:
-      "A front-end and dashboard build for a crypto investment platform concept, focused on clear presentation of plans, balances, and account activity.",
-    image: "/images/projects/crypto-investment-platform.jpg",
-    technologies: ["PHP", "JavaScript", "MySQL", "CSS3"],
-    features: [
-      "Account dashboard layout",
-      "Investment plan presentation",
-      "Secure form handling patterns",
-      "Responsive dashboard UI",
-    ],
-    githubUrl: "#",
-    liveUrl: "#",
-  }, 
+  id: "enterprise-erp-platform",
+  title: "Enterprise ERP Platform (Ongoing)",
+  category: "Web Application",
+  description:
+    "An enterprise ERP platform currently in development, designed to streamline business operations through integrated modules for HR, payroll, procurement, inventory, finance, CRM, sales, workshop management, and workflow automation. Built with scalability and future mobile support in mind.",
+  image: "/images/projects/erp_img.jpg",
+  technologies: [
+    "PHP",
+    "MySQL",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "React",
+    "React Native",
+    "REST API"
+  ],
+  features: [
+    "Role-based access control & secure authentication",
+    "HR, payroll, CRM, inventory & procurement modules",
+    "Workflow automation with real-time dashboards",
+    "Currently in development with future mobile application support"
+  ],
+  githubUrl: "#",
+  liveUrl: "#",
+},
 ];
