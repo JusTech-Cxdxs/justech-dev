@@ -78,23 +78,30 @@ export const projects: Project[] = [
   featured: true,
 },
   {
-    id: "safeweb-lithuania-website",
-    title: "SafeWeb Lithuania Website",
-    category: "Business Website",
-    description:
-      "Website build for SafeWeb, a Lithuania-based IT and cybersecurity company, developed with a security-conscious approach to match the company's own positioning.",
-    image: "/images/projects/safeweb-lithuania.jpg",
-    technologies: ["WordPress", "PHP", "JavaScript", "CSS3"],
-    features: [
-      "Security-conscious build (hardened forms, safe data handling)",
-      "Corporate service presentation",
-      "Performance-optimized pages",
-      "Responsive across devices",
-    ],
-    githubUrl: "#",
-    liveUrl: "#",
-    featured: true,
-  },
+  id: "nma-hair-beauty",
+  title: "NMA Hair & Beauty",
+  category: "E-Commerce",
+  description:
+    "A luxury multi-currency e-commerce platform built for premium hair products, delivering secure online shopping, elegant product presentation, and a seamless international checkout experience.",
+  image: "/images/projects/nma_img.jpg",
+  technologies: [
+    "WordPress",
+    "WooCommerce",
+    "PHP",
+    "JavaScript",
+    "HTML5",
+    "CSS3"
+  ],
+  features: [
+    "Multi-currency shopping (GBP & USD)",
+    "Secure payment & streamlined checkout",
+    "Luxury product catalogue & order management",
+    "Mobile-responsive, SEO-optimized & high-performance"
+  ],
+  githubUrl: "#",
+  liveUrl: "#",
+  featured: true,
+},
   {
     id: "gktv-foundation-website",
     title: "GKTV Foundation Website",
