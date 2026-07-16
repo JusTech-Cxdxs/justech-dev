@@ -25,7 +25,7 @@ export default function Projects() {
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted">
             A mix of client work and personal builds — booking platforms, dealership sites, e-commerce,
-            and custom WordPress solutions. Swap in real screenshots and links in{" "}
+            and custom Web solutions.
           </p>
         </ScrollReveal>
 
