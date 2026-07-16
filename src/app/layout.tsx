@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+import Script from "next/script";
+import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
 import { siteConfig } from "@/data/siteConfig";
 import Navbar from "@/components/layout/Navbar";
@@ -60,6 +61,13 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#0b0e14",
+};
+
 const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -93,6 +101,15 @@ export default function RootLayout({
       className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}
     >
       <body className="bg-bg text-text font-body antialiased selection:bg-accent">
+        <Script id="theme-init" strategy="beforeInteractive">
+          {`
+            try {
+              var stored = localStorage.getItem('je-portfolio-theme');
+              var theme = stored || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+              document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {}
+          `}
+        </Script>
         <script
           type="application/ld+json"
           // eslint-disable-next-line react/no-danger
