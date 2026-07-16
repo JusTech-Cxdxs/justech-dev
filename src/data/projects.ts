@@ -53,22 +53,30 @@ export const projects: Project[] = [
   featured: true,
 },
   {
-    id: "erp-concept-automotive",
-    title: "ERP Concept for Automotive Company",
-    category: "Web Application",
-    description:
-      "A concept ERP interface exploring how an automotive business could manage inventory, service records, and workflow in one system — built to demonstrate the approach, not a deployed production system.",
-    image: "/images/projects/erp-automotive-concept.jpg",
-    technologies: ["PHP", "MySQL", "JavaScript", "HTML5", "CSS3"],
-    features: [
-      "Inventory & service record concepts",
-      "Role-based access control design",
-      "Dashboard-driven workflow",
-      "Built with future scalability in mind",
-    ],
-    githubUrl: "#",
-    liveUrl: "#",
-  },
+  id: "gktv-media-platform",
+  title: "GKTV Media Platform",
+  category: "Business Website",
+  description:
+    "A campus media and community platform delivering trusted news, verified updates, student engagement, vendor services, and humanitarian fundraising in a secure, user-friendly digital ecosystem.",
+  image: "/images/projects/gktv_img.jpg",
+  technologies: [
+    "PHP",
+    "MySQL",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "WordPress"
+  ],
+  features: [
+    "Campus news & community engagement platform",
+    "NGO & humanitarian fundraising integration",
+    "Verified vendor directory & student services",
+    "Mobile-responsive, SEO-ready & secure architecture"
+  ],
+  githubUrl: "#",
+  liveUrl: "#",
+  featured: true,
+},
   {
     id: "safeweb-lithuania-website",
     title: "SafeWeb Lithuania Website",
