@@ -30,7 +30,7 @@ export const siteConfig = {
   github: "https://github.com/JusTech-Cxdxs", // placeholder
   linkedin: "https://linkedin.com/in/justiceenefola", // placeholder
   cvUrl: "/cv/justice-enefola-cv.pdf", // placeholder — add the real file to public/cv
-  profileImage: "/images/profile.jpg", // placeholder — add the real photo to public/images
+  profileImage: "/images/profile_pic.jpg", // placeholder — add the real photo to public/images
   availableForProjects: true,
   yearsExperience: 3,
   education: {
