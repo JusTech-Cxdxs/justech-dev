@@ -64,10 +64,10 @@ export default function Contact() {
           </p>
         </ScrollReveal>
 
-        <div className="mt-12 grid gap-8 lg:grid-cols-[1fr_1.2fr]">
+        <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-[1fr_1.2fr]">
           <div className="space-y-6">
             <ScrollReveal delay={0.1}>
-              <div className="grid gap-4 sm:grid-cols-2">
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {contactMethods.map((method) => {
                   const Body = (
                     <GlassCard className="flex items-center gap-3 p-4 transition-colors duration-300 hover:border-accent/50">
@@ -100,10 +100,10 @@ export default function Contact() {
 
             <ScrollReveal delay={0.2}>
               <div className="bg-grid relative flex h-48 items-center justify-center overflow-hidden rounded-2xl border border-border bg-surface">
-                <div className="flex flex-col items-center gap-2 text-muted">
+                <div className="flex max-w-full flex-col items-center gap-2 px-4 text-center text-muted">
                   <FiMapPin className="text-2xl text-accent" aria-hidden />
-                  <p className="text-sm">{siteConfig.location}</p>
-                  <p className="font-mono text-[11px]">Lagos</p>
+                  <p className="max-w-full text-sm break-words">{siteConfig.location}</p>
+                  <p className="font-mono text-[11px]">Map embed placeholder</p>
                 </div>
               </div>
             </ScrollReveal>
@@ -114,7 +114,7 @@ export default function Contact() {
               <form onSubmit={handleSubmit} className="space-y-5" noValidate>
                 <input type="text" name="company" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden />
 
-                <div className="grid gap-5 sm:grid-cols-2">
+                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                   <div>
                     <label htmlFor="name" className="text-sm font-medium text-text">
                       Name
