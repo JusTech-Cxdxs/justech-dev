@@ -29,7 +29,7 @@ export const siteConfig = {
   whatsapp: "https://wa.me/2347083004098", // placeholder
   github: "https://github.com/JusTech-Cxdxs", // placeholder
   linkedin: "https://linkedin.com/in/justiceenefola", // placeholder
-  cvUrl: "/cv/justice-enefola-cv.pdf", // placeholder — add the real file to public/cv
+  cvUrl: "/cv/Justice_Enefola_CV.pdf", // placeholder — add the real file to public/cv
   profileImage: "/images/profile_pic.jpg", // placeholder — add the real photo to public/images
   availableForProjects: true,
   yearsExperience: 3,
