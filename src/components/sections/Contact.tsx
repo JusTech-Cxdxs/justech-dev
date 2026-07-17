@@ -103,7 +103,7 @@ export default function Contact() {
                 <div className="flex max-w-full flex-col items-center gap-2 px-4 text-center text-muted">
                   <FiMapPin className="text-2xl text-accent" aria-hidden />
                   <p className="max-w-full text-sm break-words">{siteConfig.location}</p>
-                  <p className="font-mono text-[11px]">Map embed placeholder</p>
+                  <p className="font-mono text-[11px]"></p>
                 </div>
               </div>
             </ScrollReveal>
