@@ -153,7 +153,6 @@ export default function Awards() {
         </ScrollReveal>
 
         <div className="mt-4 flex items-center justify-center gap-2 text-center font-mono text-[11px] text-muted">
-          <FiUsers aria-hidden /> Award images pending — placeholders live in public/images/awards/
         </div>
       </div>
     </section>
