@@ -27,10 +27,6 @@ export default function Testimonials() {
           <h2 className="mt-3 text-center text-balance font-display text-3xl font-bold text-text sm:text-4xl">
             What people say
           </h2>
-          <p className="mx-auto mt-3 max-w-lg text-center text-sm text-muted">
-            Placeholder quotes — swap in real client feedback in{" "}
-            <code className="rounded bg-surface-2 px-1.5 py-0.5 font-mono text-xs">src/data/testimonials.ts</code>.
-          </p>
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
