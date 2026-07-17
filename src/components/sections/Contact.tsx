@@ -99,14 +99,18 @@ export default function Contact() {
             </ScrollReveal>
 
             <ScrollReveal delay={0.2}>
-              <div className="bg-grid relative flex h-48 items-center justify-center overflow-hidden rounded-2xl border border-border bg-surface">
-                <div className="flex flex-col items-center gap-2 text-muted">
-                  <FiMapPin className="text-2xl text-accent" aria-hidden />
-                  <p className="text-sm">{siteConfig.location}</p>
-                  <p className="font-mono text-[11px]">Map embed placeholder</p>
-                </div>
-              </div>
-            </ScrollReveal>
+  <div className="overflow-hidden rounded-2xl border border-border">
+    <iframe
+      src="https://www.google.com/maps?q=Lagos,Nigeria&output=embed"
+      width="100%"
+      height="300"
+      loading="lazy"
+      allowFullScreen
+      referrerPolicy="no-referrer-when-downgrade"
+      className="border-0"
+    />
+  </div>
+</ScrollReveal>
           </div>
 
           <ScrollReveal delay={0.15}>
