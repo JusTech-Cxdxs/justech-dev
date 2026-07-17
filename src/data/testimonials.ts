@@ -1,29 +1,60 @@
 import type { Testimonial } from "@/types";
 
-// Placeholder testimonials — swap in real client quotes once available.
 export const testimonials: Testimonial[] = [
   {
     id: "t1",
-    name: "Client Name",
-    role: "Business Owner, Booking Platform Project",
+    name: "GKTV Media",
+    role: "Campus Media Platform",
     quote:
-      "Justice took the time to understand how our booking process actually worked before writing a line of code. The result felt built for us, not adapted from a template.",
-    initials: "CN",
+      "Justice transformed our vision into a modern media platform that strengthened communication across our campus community. His technical expertise, professionalism, and commitment to delivering quality solutions made a lasting impact.",
+    initials: "GK",
   },
   {
     id: "t2",
-    name: "Client Name",
-    role: "Founder, E-commerce Store",
+    name: "OnuTera Project Team",
+    role: "Booking Platform Development",
     quote:
-      "Communication was clear from start to finish, and he flagged security considerations we hadn't even thought to ask about. That gave us real confidence in the build.",
-    initials: "CN",
+      "Justice consistently introduced creative solutions throughout the development process. He communicated progress regularly, collaborated effectively with the team, and helped shape a modern booking experience with strong attention to usability and functionality.",
+    initials: "OT",
   },
   {
     id: "t3",
-    name: "Client Name",
-    role: "Operations Lead, Corporate Website",
+    name: "Edvardas",
+    role: "Managing Director, SafeWeb Lithuania",
     quote:
-      "Our site went from slow and hard to update to fast and genuinely easy to manage ourselves. Exactly what we needed.",
-    initials: "CN",
+      "Justice demonstrated professionalism, curiosity, and a genuine commitment to delivering quality work. His willingness to learn, improve, and contribute to secure web solutions made him a valuable part of our projects.",
+    initials: "E",
+  },
+  {
+    id: "t4",
+    name: "Business Owner",
+    role: "E-Commerce Client",
+    quote:
+      "The website exceeded our expectations with its premium design, excellent performance, and responsive user experience. Justice delivered a solution that truly represented our brand online.",
+    initials: "BO",
+  },
+  {
+    id: "t5",
+    name: "Professional Training Instructor",
+    role: "AI Technologies Institute",
+    quote:
+      "Justice consistently showed exceptional dedication to learning, solving technical challenges, and applying modern technologies to build practical, business-focused software solutions.",
+    initials: "AI",
+  },
+  {
+    id: "t6",
+    name: "Entrepreneur",
+    role: "Business Strategy & Digital Branding",
+    quote:
+      "Justice's practical business and branding advice gave me a clearer direction for positioning my business online. His ideas were creative, actionable, and genuinely valuable.",
+    initials: "EN",
+  },
+  {
+    id: "t7",
+    name: "Client",
+    role: "Business Website Project",
+    quote:
+      "From planning through deployment, Justice maintained excellent communication and delivered a fast, secure, and easy-to-manage website. The attention to detail throughout the project was outstanding.",
+    initials: "CL",
   },
 ];
