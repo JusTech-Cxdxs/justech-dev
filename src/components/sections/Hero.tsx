@@ -18,13 +18,9 @@ import Button from "@/components/ui/Button";
 import Badge from "@/components/ui/Badge";
 
 const roles = [
-  "Entrepreneur Building Digital Solutions",
-  "Software Developer Creating Scalable Applications",
-  "Full-Stack Developer & Technology Consultant",
-  "Web Developer Specializing in Business Platforms",
-  "WordPress & Custom CMS Solutions Expert",
-  "E-commerce, SaaS & Automation Developer",
-  "Digital Product Creator & Startup Builder",
+  "Web Developer",
+  "WordPress Specialist",
+  "Custom Website & E-commerce Solutions",
 ];
 
 const floatingIcons = [
